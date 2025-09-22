@@ -1,0 +1,19 @@
+
+    Number.parseInt()
+    Number.parseFloat()
+    Number()
+    variavel.toString()
+    String()
+    ---------
+    extra 
+    variavel.length
+    variavel.toUpperCase()
+    variavel.ToLowerCase()
+
+    para numeros flutuantes: 
+    variavel.toFixed(2) controla os numeros pos virgula
+  
+    variavel.replace("antigo", "novo") troca alguma coisa por outra
+
+    converter um valor para moeda
+    variavel.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})

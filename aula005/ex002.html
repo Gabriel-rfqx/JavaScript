@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM events</title>
+</head>
+<body>
+    <h1>Somando numeros</h1>
+    <p><label for="inum1">1° numero: </label><input type="number" name="num1" id="inum1"></p>
+    <p><label for="inum2">2° numero:</label><input type="number" name="num2" id="inum2"></p>
+    <input type="submit" value="Calcular" id="calc" onclick="clickar()">
+    <p id="res" >O resultado da soma é: ?</p>
+    <script>
+        var calcular = window.document.getElementById(calc)
+        
+        function clickar(){
+            var txt1 = window.document.getElementById('inum1').value
+            var txt2 = window.document.querySelector('input#inum2').value
+            window.document.getElementById('res').innerText = (`O resultado da soma é: ${Number(txt1) + Number(txt1)} `)
+
+        }
+
+    </script>
+</body>
+</html>

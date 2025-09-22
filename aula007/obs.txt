@@ -1,0 +1,44 @@
+condições aninhadas
+(condições dentro de condição)
+
+
+            if{
+                if{
+
+
+                }else{
+                    
+                }
+
+            }else{
+                
+            }
+
+e tambem
+
+            if{
+
+
+            }else if {
+                
+            } else{
+                
+            }
+
+
+pegar hora atual
+
+var agora = new Data()
+
+console.log(agora.getHours())
+
+condição multipla
+
+switch(variavel){
+    case 1:
+        break
+    case 2:
+        break
+
+    default:
+}

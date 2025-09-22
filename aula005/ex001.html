@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body{
+            background-color: grey;
+        }
+        div#area{
+            font-size: 2em;
+            text-align: center;
+            height: 300px;
+            width: 300px;
+            background-color: antiquewhite;
+            color: rgb(61, 60, 60);
+        }
+    </style>
+</head>
+<body>
+    <h1>Eventos DOM</h1>
+
+    <div id="area" >
+        Interaja...
+    </div>
+    <script>
+        var bagui  = window.document.getElementById('area')
+        bagui.addEventListener('click', clickar)
+        bagui.addEventListener('mouseout', sair)
+        bagui.addEventListener('mouseenter', entrar)
+        function clickar(){
+            bagui.innerText = "Você me clickou!"
+        }
+        function entrar(){
+            window.document.getElementById('area').style.backgroundColor = 'red'
+        }
+        function sair(){
+            bagui.style.backgroundColor = "green"
+        }
+        /*
+        exemplos de eventos: 
+
+
+    mouseenter - quando entra dentro de algo, tipo o hover do css
+
+    mousemove - quando o mouse move dentro do "algo"
+    mousedown - quando o mouse é precionado
+    mouseup - quando solta o mouse
+    click - quando clica com mouse
+
+
+        */
+    </script>
+</body>
+</html>

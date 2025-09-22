@@ -1,0 +1,18 @@
+ diferença dos = 
+
+  = recebe
+  == valores iguais
+  === tipos identicos
+  !== desigual restrito tipos diferentes
+
+    ordem de procedencia das expressões
+
+    1°: ! (diferente)
+    2°: && (e)
+    3°: || (ou)
+
+    operador ternário: 
+
+    (condição) ? (True) : (False)
+
+    condição ? caso verdadeiro(executa) : caso for falsa (executa)

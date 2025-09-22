@@ -1,0 +1,25 @@
+Variaveis compostas (Arrays/vetor)
+
+lista.push(elemento) - push metodo interno que adiciona elemento na ultima posssição da array
+
+lista.length - length é um atributo q mostra o tamanho da lista
+
+lista.sort() - sort é um metodo q organiza a lista em ordem crescente
+
+num.indexOF(index) - encontra um elemento dentro de uma lista
+
+
+
+
+
+-------
+para fazer o for in enumerate do python em js:
+
+for(let [a ,b] of Object.entries(lista)){
+    console.log(a, b)
+}
+
+o 'a' vai ser a key
+e o 'b' vai ser o elemento
+
+q nem no python

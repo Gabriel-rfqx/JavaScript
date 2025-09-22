@@ -1,0 +1,13 @@
+DOM
+
+    puxar elementos:
+     
+     
+        getElementsByTagName("tag")[x] -- por tag
+        window.document.getElementById -- por id
+        window.document.getElementsByClassName('name')[x] -- por classes
+        window.document.getElementsByName('name')[x] --  Por nome
+
+    puxar elementos por Seletores: (recomendavel)
+
+    window.document.querySelector('h1#titulo')
