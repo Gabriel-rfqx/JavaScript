@@ -4,4 +4,4 @@ for(let a in c){
     console.log(`Na posição ${a} se econtra o elemento ${c[a]}`)
 }
 
-console.log(c.indexOf(342))
+console.log(c.indexOf(342)) 
