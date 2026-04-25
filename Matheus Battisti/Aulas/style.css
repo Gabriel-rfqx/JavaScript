@@ -1,0 +1,19 @@
+        body {
+            background-color: rgb(153, 144, 144);
+            color: rgb(192, 210, 30);
+        }
+
+        main {
+            background-color: rgba(255, 228, 196, 0.411);
+            border-radius: 15px;
+            margin: 10px auto;
+            width: 80%;
+            height: 90vh;
+            display: block;
+        }
+
+        h1{
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-shadow: 1px 1px rebeccapurple, -1px -1px rebeccapurple ;
+        }
