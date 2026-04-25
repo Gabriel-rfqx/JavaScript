@@ -1,0 +1,9 @@
+//operadores condicionais
+
+/*
+
+not = !
+
+
+*/
+

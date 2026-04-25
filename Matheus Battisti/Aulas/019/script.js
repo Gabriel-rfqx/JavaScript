@@ -1,0 +1,8 @@
+//Estruturas de repeticoes
+
+/*
+
+
+++, --, -=, +=, *=, /=
+
+*/
