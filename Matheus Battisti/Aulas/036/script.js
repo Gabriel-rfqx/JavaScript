@@ -1,15 +1,21 @@
-//Criando elementos
+//Adicionando elementos no HTML
 
-var titulo = document.querySelector("#title")
-console.log(titulo)
+var novoParagrafo = document.createElement("p")
 
-// innerHTML
+console.log(novoParagrafo)
+console.log(typeof novoParagrafo)
 
-titulo.innerHTML = "Titulo ALterado"
+var texto = document.createTextNode("Este e o conteudo, que ficara dentro do paragrafo. ")
 
-// textContent -> mais utilizado
+console.log(texto)
 
-var subti = document.querySelector("h2")
-console.log(subti)
+novoParagrafo.appendChild(texto)
 
-subti.textContent = "Alterando o subtitulo"
+console.log(novoParagrafo)
+
+var main = document.querySelector("main")
+
+console.log(main)
+
+main.appendChild(novoParagrafo)
+
